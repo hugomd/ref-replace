@@ -2,6 +2,7 @@
   "name": "ref-replace",
   "description": "Replace JSON references with _ref so that the object can be inserted into Mongo",
   "repository": "git@github.com:hugomd/ref-replace.git",
+  "version": "1.0.0",
   "author": {
     "name": "Hugo Muller-Downing",
     "email": "npmjs@hugo.sx",
