@@ -1,0 +1,30 @@
+{
+  "name": "ref-replace",
+  "description": "Replace JSON references with _ref so that the object can be inserted into Mongo",
+  "repository": "git@github.com:hugomd/ref-replace.git",
+  "author": {
+    "name": "Hugo Muller-Downing",
+    "email": "npmjs@hugo.sx",
+    "url": "hu.md"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "xo": {
+    "space": true
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "xo": "^0.17.1"
+  },
+  "keywords": [
+    "ref",
+    "replace",
+    "mongo",
+    "json"
+  ]
+}
