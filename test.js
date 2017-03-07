@@ -74,7 +74,8 @@ const testJSONNestedArray = {
         }
       ],
       something: 'else'
-    }
+    },
+    'test'
   ]
 };
 
@@ -91,7 +92,8 @@ const testMongoNestedArray = {
         }
       ],
       something: 'else'
-    }
+    },
+    'test'
   ]
 };
 

@@ -1,4 +1,7 @@
 const replaceRefs = (obj, searchStr, replaceStr) => {
+  if (typeof obj === 'string') {
+    return obj;
+  }
   if (Array.isArray(obj)) {
     return obj.map(k => replaceRefs(k, searchStr, replaceStr));
   } else if (typeof obj === 'object') {
