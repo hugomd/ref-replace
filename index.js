@@ -1,4 +1,7 @@
 const replaceRefs = (obj, searchStr, replaceStr) => {
+  if (!obj) {
+    return;
+  }
   if (typeof obj === 'string') {
     return obj;
   }
